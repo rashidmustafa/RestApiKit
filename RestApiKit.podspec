@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
   spec.name         = "RestApiKit"
   spec.version      = "1.0.0"
   spec.summary      = "REST Api framework"
-  spec.description  = "You can consume any REST API by using this framework"
+  spec.description  = "Right now the framework supports GET, POST, PUT and DELETE requests"
   spec.homepage     = "https://github.com/rashidmustafa/RestApiKit"
   spec.license      = "MIT"
   spec.author       = { "Rashid mustafa" => "rashidmustafa07@gmail.com" }
