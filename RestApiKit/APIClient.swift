@@ -16,8 +16,8 @@ public class ApiClient
     private init(){}
     
     private func getSession() -> URLSession {
-        let config = URLSessionConfiguration.default // Session Configuration
-        let session = URLSession(configuration: config) // Load Configuration into Session
+        let config = URLSessionConfiguration.default 
+        let session = URLSession(configuration: config)
         return session
     }
     
