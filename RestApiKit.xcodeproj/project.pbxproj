@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		944E05C328C57F27008360B1 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944E05C228C57F27008360B1 /* TestModel.swift */; };
 		94BD5F1728BDE1910077F32F /* RestApiKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = 94BD5F1628BDE1910077F32F /* RestApiKit.docc */; };
 		94BD5F1D28BDE1910077F32F /* RestApiKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BD5F1228BDE1910077F32F /* RestApiKit.framework */; };
 		94BD5F2328BDE1910077F32F /* RestApiKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 94BD5F1528BDE1910077F32F /* RestApiKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		944E05C228C57F27008360B1 /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		94BD5F1228BDE1910077F32F /* RestApiKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RestApiKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94BD5F1528BDE1910077F32F /* RestApiKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestApiKit.h; sourceTree = "<group>"; };
 		94BD5F1628BDE1910077F32F /* RestApiKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = RestApiKit.docc; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				94BD5F2128BDE1910077F32F /* RestApiKitTests.swift */,
+				944E05C228C57F27008360B1 /* TestModel.swift */,
 			);
 			path = RestApiKitTests;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				944E05C328C57F27008360B1 /* TestModel.swift in Sources */,
 				94BD5F4028BE13240077F32F /* APIClient.swift in Sources */,
 				94BD5F4328BE142A0077F32F /* RestApiKitTests.swift in Sources */,
 			);
